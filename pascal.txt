@@ -1,6 +1,6 @@
 program xi;
 const a:=-15,b:=26;
-var c,d,g;
+var c,d;
     procedure readarray (a,b);
         const e:=7,t:=2;
         var f,c;

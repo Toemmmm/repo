@@ -16,8 +16,8 @@ void lexp();
 void body();
 void term();
 void factor();
-void ifendline();//如果读到分号 进入这个函数判断下一个是不是行结束符 如果不是报错然后跳到下一行?
-void gotonextline();//出错后跳到下一行?
+void ifendline();//如果读到分号 进入这个函数判断下一个是不是行结束符 如果不是报错然后跳到下一行
+void gotonextline();//出错后跳到下一行
 //读文件的类
 class readcode{
 	private:
@@ -49,7 +49,7 @@ typedef struct INT{
 	int type;
 	int xp;
 	int yp;
-}INT;
+}INT; 
 /*
 行结束符
 用来出错后跳过该行到下一�?
